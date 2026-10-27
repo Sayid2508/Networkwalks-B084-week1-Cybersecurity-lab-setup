@@ -17,3 +17,65 @@
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
    <img src="https://img.shields.io/badge/Sayid Ahmed%20Mohamed%20Ali-C00000?style=flat-square" />
 </p>
+
+## 📌 Project Overview
+This project is the starting point for my upcoming cybersecurity labs and hands-on projects.
+
+The main goal of Week 1 was to set up and configure a virtual cybersecurity environment using Oracle **VirtualBox and Kali Linux**.
+
+This lab gives me a safe environment to practice cybersecurity concepts, explore networking, learn security tools, and prepare for future penetration-testing activities.
+
+## 🎯 Objectives
+
+The main objectives of this project are to:
+
+* Install and configure 7-Zip
+* Install Oracle VirtualBox
+* Create a VirtualBox NAT Network
+* Download and import Kali Linux
+* Connect Kali Linux to the lab network
+* Configure and verify Kali Linux networking
+* Create a clean Virtual Machine snapshot
+* Document the complete lab setup
+* Prepare the environment for future cybersecurity projects
+* 
+## 🛡️ Purpose of the Lab
+The purpose of this lab is to create a safe and controlled environment where I can learn cybersecurity concepts and gain practical experience.
+
+I will use this environment for future hands-on activities, including:
+
+* Network reconnaissance
+
+* Network scanning
+
+* Vulnerability assessment
+
+* Packet analysis
+
+* Practicing cybersecurity tools
+
+* SOC-related exercises
+
+* Hands-on cybersecurity labs
+
+* Authorized penetration testing
+
+> ⚠️ **Ethical Use:**
+> This laboratory is intended for educational purposes and authorized security testing only. Security tools must only be used against systems that I own or have explicit permission to test.
+>
+> ## ⚙️ Lab Configuration
+
+| 🧩 Component       | ⚙️ Configuration   |
+| ------------------ | ------------------  |
+| 🖥️ Host OS         | Windows 11         |
+| 🧠 Host RAM        | 16 GB               |
+| ⚡ Processor       | Intel Core i7      |
+| 🧰 Hypervisor      | VirtualBox 7.2.22  |
+| 🐉 Security OS     | Kali Linux 2026.3  |
+| 🧠 Kali RAM        | 2048 MB            |
+| 🌐 Virtual Network | NAT Network        |
+| 📡 Network Address | 10.0.0.0/24        |
+| 🐧 Kali IP Address | 10.0.0.2/24        |
+| 🚪 Default Gateway | 10.0.0.1           |
+| 🌍 DNS Server      | 8.8.8.8            |
+| 🔮 Future VM Range | 10.0.0.2–10.0.0.99 |
