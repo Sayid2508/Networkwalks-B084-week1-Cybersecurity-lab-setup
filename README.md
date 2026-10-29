@@ -139,6 +139,93 @@ I then verified that Kali Linux received an IP address from the configured virtu
  
 A clean snapshot of the Kali Linux virtual machine was created using Oracle VirtualBox. This provides a restore point that allows the VM to return to its original state if any unexpected changes occur during cybersecurity lab exercises.
 
-<img width="1908" height="977" alt="2" src="Setup the IP configuration of Kali Linux.png ">
+<img width="1908" height="977" alt="2" src="Snapshots.png ">
 
 
+## 🔎 Lab Verification
+
+The Kali Linux lab environment was verified by checking the network interface configuration, testing connectivity to the NAT Network gateway and an external IP address, and confirming that the clean VM snapshot can restore the baseline configuration.
+# 🔎 Lab Verification
+
+| ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
+| ----------------------------- | ------------------------------- | ------------------------------- |
+| 🌐 Check IP address           | `ip a`                          | Correct Kali IP displayed       |
+| 📡 Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
+| 🌍 Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
+| 🔎 Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
+| 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
+| 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
+
+### Example Results
+
+```text
+IP Address:
+10.0.0.2/24
+
+Gateway:
+10.0.0.1
+
+DNS:
+8.8.8.8
+```
+
+---
+
+# 🐞 Problems Encountered & Solutions
+
+Documenting problems and solutions is an important part of this project because troubleshooting is an essential cybersecurity and IT skill.
+
+## Problem 1 – Network Configuration
+
+I checked the network adapter settings in Oracle VirtualBox to ensure that the Kali Linux virtual machine was correctly connected to the NAT Network.
+
+## Problem 2 – Maintaining a Clean Lab Environment
+
+I created a VirtualBox snapshot after the initial setup to provide a clean recovery point in case future cybersecurity experiments change system settings or files.
+# 💡 What I Learned
+
+During Week 1, I learned how to build the foundation of a virtual cybersecurity laboratory.
+
+### Technical Skills
+
+1. How to install and use 7-Zip.
+2. How to install Oracle VirtualBox.
+3. How virtualization can be used for cybersecurity training.
+4. How to create a NAT Network in VirtualBox.
+5. How to import Kali Linux as a virtual machine.
+6. How to connect a virtual machine to a virtual network.
+7. How to check Kali Linux network configuration.
+8. How to create and use VM snapshots.
+
+## 🔐 Security & Ethical Use
+
+This lab is intended for educational purposes and authorized security testing only.
+
+# 🔗 Tools & Technologies
+
+* **Windows 11** – Host Operating System
+* **Oracle VirtualBox** – Virtualization Platform
+* **Kali Linux** – Cybersecurity Operating System
+* **7-Zip** – Archive Management
+* **GitHub** – Project Documentation & Version Control
+
+# 👤 Author
+
+**Sayid Ahmed Mohamed Ali**
+
+**Cybersecurity  IT Support Specialist**
+
+**Program:** Networkwalks
+**Batch:** B084
+**Week:** 01
+
+### LinkedIn
+
+[Sayid Ahmed Mohamed Ali](https://www.linkedin.com/in/sayid-ahmed-mohamed-ali-39354414b/)
+
+## 📌 Project Information
+
+**Status: ✅ Completed – Week 1**
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | 
+
+This project establishes a foundation for future cybersecurity labs, practical exercises, and GitHub portfolio development
