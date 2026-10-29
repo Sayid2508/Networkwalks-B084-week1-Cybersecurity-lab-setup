@@ -60,7 +60,7 @@ I will use this environment for future hands-on activities, including:
 
 * Authorized penetration testing
 
-> ⚠️ **Ethical Use:**
+> ⚠️ **Important:**
 > This laboratory is intended for educational purposes and authorized security testing only. Security tools must only be used against systems that I own or have explicit permission to test.
 >
 > ## ⚙️ Lab Configuration
@@ -79,3 +79,9 @@ I will use this environment for future hands-on activities, including:
 | 🚪 Default Gateway | 10.0.0.1           |
 | 🌍 DNS Server      | 8.8.8.8            |
 | 🔮 Future VM Range | 10.0.0.2–10.0.0.99 |
+
+# 🪜 Lab Setup Procedure
+
+## Step 1 – Install 7-Zip
+
+I installed **7-Zip** to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
