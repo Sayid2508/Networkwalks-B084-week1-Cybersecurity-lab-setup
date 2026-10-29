@@ -133,3 +133,8 @@ DNS:
 
 I then verified that Kali Linux received an IP address from the configured virtual network.
 
+ <img width="1908" height="977" alt="2" src="Setup the IP configuration of Kali Linux.png ">
+
+
+
+
