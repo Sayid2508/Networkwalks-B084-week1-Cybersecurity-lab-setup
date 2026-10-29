@@ -85,3 +85,5 @@ I will use this environment for future hands-on activities, including:
 ## Step 1 – Install 7-Zip
 
 I installed **7-Zip** to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
+# SCREENSHOTS
+![](Download & install 7-zip.png)
