@@ -116,3 +116,20 @@ I downloaded and imported **Kali Linux** into Oracle VirtualBox and connected it
 
 **Result**: Kali Linux was successfully imported into VirtualBox and connected to my lab network, ready for future cybersecurity exercises and practical projects.
 
+<img width="1908" height="977" alt="2" src="Download & import Kali Linux Virtual Machine.png ">
+
+# Step 5 – Configure Kali Linux Network
+
+I configured Kali Linux to connect to the laboratory network.
+
+IP Address:
+10.0.0.2/24
+
+Gateway:
+10.0.0.1
+
+DNS:
+8.8.8.8
+
+I then verified that Kali Linux received an IP address from the configured virtual network.
+
