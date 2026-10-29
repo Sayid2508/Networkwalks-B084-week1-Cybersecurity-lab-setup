@@ -86,4 +86,15 @@ I will use this environment for future hands-on activities, including:
 
 I installed **7-Zip** to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
 # SCREENSHOTS
-![](
+
+<img width="1908" height="977" alt="2" src="Download & install 7-zip.png">
+
+# Step 2 – Install Oracle VirtualBox
+
+I installed **Oracle VirtualBox** on my Windows machine to create and manage virtual machines for my cybersecurity lab, and the installation was completed successfully, making it ready for the next setup steps.
+<img width="1908" height="977" alt="2" src="Download & install Virtualbox.png">
+
+# Step 3 – Create NAT Network
+
+I created a dedicated **NAT Network** in VirtualBox using the network range **10.0.0.0/24** to provide a controlled networking environment for my cybersecurity lab and allow me to connect additional virtual machines for future hands-on projects.
+<img width="1908" height="977" alt="2" src="Download & install 7-zip.png">
