@@ -92,9 +92,27 @@ I installed **7-Zip** to extract the Kali Linux virtual-machine package, which m
 # Step 2 – Install Oracle VirtualBox
 
 I installed **Oracle VirtualBox** on my Windows machine to create and manage virtual machines for my cybersecurity lab, and the installation was completed successfully, making it ready for the next setup steps.
+
 <img width="1908" height="977" alt="2" src="Download & install Virtualbox.png">
 
 # Step 3 – Create NAT Network
 
 I created a dedicated **NAT Network** in VirtualBox using the network range **10.0.0.0/24** to provide a controlled networking environment for my cybersecurity lab and allow me to connect additional virtual machines for future hands-on projects.
-<img width="1908" height="977" alt="2" src="Download & install 7-zip.png">
+
+<img width="1908" height="977" alt="2" src="Configure the network settings.png">
+
+# Step 4 – Install and Import Kali Linux
+
+I downloaded and imported **Kali Linux** into Oracle VirtualBox and connected it to my lab’s NAT Network, creating a safe environment for hands-on cybersecurity practice.
+
+**Kali Linux provides tools for:**
+
+* Network analysis
+* Security testing
+* Vulnerability assessment
+* Digital forensics
+* Penetration testing
+* Cybersecurity learning and practice
+
+**Result**: Kali Linux was successfully imported into VirtualBox and connected to my lab network, ready for future cybersecurity exercises and practical projects.
+
