@@ -137,6 +137,8 @@ I then verified that Kali Linux received an IP address from the configured virtu
 
  # Step 5- Create a Virtual Machine Snapshots
  
+A clean snapshot of the Kali Linux virtual machine was created using Oracle VirtualBox. This provides a restore point that allows the VM to return to its original state if any unexpected changes occur during cybersecurity lab exercises.
 
+<img width="1908" height="977" alt="2" src="Setup the IP configuration of Kali Linux.png ">
 
 
