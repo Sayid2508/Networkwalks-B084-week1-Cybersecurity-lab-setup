@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Linkedin-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
    <img src="https://img.shields.io/badge/Sayid Ahmed%20Mohamed%20Ali-C00000?style=flat-square" />
-</p>
+
 
 ## 📌 Project Overview
 This project is the starting point for my upcoming cybersecurity labs and hands-on projects.
